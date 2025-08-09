@@ -1,0 +1,94 @@
+✅ Total Screens: 13
+
+Accounts Screen
+➕ Add field while adding/editing an account:
+“Include this account in Dashboard total?” → Yes / No toggle
+(Only the accounts marked as "Yes" will be summed up in "Total Income" on the Dashboard.)
+
+
+Settings Screen
+We’ll keep the app in white theme only for now.
+
+📱 Final Screen List + Descriptions
+No.	Screen Name	Description
+1	DashboardScreen	Main dashboard (default screen) — shows:
+• Total Income (sum of selected accounts)
+• Total Expenses
+• Net Balance
+• Donut chart: Category-wise spending
+• Bar chart: Need / Want / Saved
+• Recent transaction table
+• Add Expense + button and Date Range filter
+
+2	AddExpenseScreen	Add new transaction with fields:
+• Description
+• Amount (₹ Indian currency)
+• Category (dropdown)
+• Pay From (linked accounts)
+• Payment Method: Online / Offline / Credit Card
+• Type: Need / Want / Saved
+• Date
+• If category = Investment → show toggle “Add Investment Details?” → dropdown with: Mutual Funds, Stocks, Gold, FD, RD, Other
+
+3	DrawerMenu	Hamburger menu with modules:
+1. Profile
+2. Dashboard
+3. Accounts
+4. Analysis
+5. Investments
+6. Split Bills
+7. Transactions = history of all transactions done with searches and sorting 
+7. Reminders
+8. Manage Categories
+9. Detailed Calendar
+10. Settings
+
+4. ProfileScreen Personal Info
+• Name, Email
+• Password & Security
+• 2FA Setup
+
+5. AccountsScreen	
+Add/Edit/Delete accounts with:
+• Account Name
+• Account Type (Checking, Saving, Investment)
+• Amount
+• 🔘 Include in Dashboard toggle
+
+6	AnalysisScreen	Spending analysis by date range:
+• Online / Offline / Credit Card spends summary
+• Donut + Bar charts
+• Category-wise table with spend count
+
+7	InvestmentsScreen	Shows all expenses with category = “Investment”
+• Donut chart: Investment breakdown
+• Table: Mutual Funds, FD, etc. entered via Add Expense
+
+8	SplitBillScreen	Group expense tracking:
+• Plan name + members
+• Inside each plan: Add expenses (desc, amount, paid by, split with...)
+• Calculates who owes how much to whom
+
+9	RemindersScreen	Add recurring/monthly reminders:
+• Title
+• Enable recurring toggle
+• Date & time
+• Notes
+
+10	ManageCategoriesScreen	View/edit/delete categories
+• Add new: Name, Type (Need/Want), Optional Budget
+11	CalendarScreen	Calendar view:
+• Dates exceeding budget shown in red
+• Clicking a date shows transactions for that day
+
+12	SettingsScreen	Settings options:
+• ❌ (Removed Theme switch)
+• Notifications (toggle)
+• Support & Feedback:
+- FAQ (AI + contact)
+- Privacy Policy
+- Rate us
+- Join Community
+• Danger Zone: Clear All Data, Delete Account
+
+13	SplashScreen (Optional)	(Optional initial loader or welcome screen)

@@ -1,0 +1,82 @@
+lib/
+├── main.dart
+
+├── models/
+│   ├── account.dart
+│   ├── account_model.dart
+│   ├── category.dart
+│   ├── expense.dart
+│   ├── income.dart
+│   ├── investment.dart
+│   ├── reminder.dart
+│   ├── split_bill.dart
+│   ├── split_expense_model.dart
+│   ├── split_plan_model.dart
+│   ├── transaction_model.dart
+│   └── user.dart
+
+├── Provider/
+│   └── app_state.dart
+
+├── screens/
+│   ├── dashboard/
+│   │   └── dashboard_screen.dart
+│   ├── add_expense/
+│   │   └── add_expense_screen.dart
+│   ├── profile/
+│   │   └── profile_screen.dart
+│   ├── accounts/
+│   │   └── accounts_screen.dart
+│   ├── analysis/
+│   │   └── analysis_screen.dart
+│   ├── investments/
+│   │   └── investments_screen.dart
+│   ├── split_bill/
+│   │   └── split_bill_screen.dart
+│   ├── reminders/
+│   │   └── reminders_screen.dart
+│   ├── manage_category/
+│   │   └── manage_category_screen.dart
+│   ├── calendar/
+│   │   └── calendar_screen.dart
+│   ├── settings/
+│   │   └── settings_screen.dart
+│   ├── splash/
+│   │   └── splash_screen.dart
+│   ├── drawer/
+│   │   └── drawer_menu.dart
+│   └── transactions/
+│       └── transactions.dart
+
+├── widgets/
+│   ├── pie_chart_widget.dart
+│   ├── bar_chart_widget.dart
+│   ├── transaction_tile.dart
+│   ├── account_card.dart
+│   ├── reusable_card.dart
+│   └── form_fields/
+│       ├── expense_form_field.dart
+│       ├── account_form_field.dart
+│       └── reminder_form_field.dart
+
+├── services/
+│   ├── database/
+│   │   ├── hive_initializer.dart   // Hive box initialization
+│   │   └── keys.dart               // Hive box keys and field keys
+│   ├── local_storage_service.dart  // Common interface to get/set
+│   ├── expense_service.dart
+│   ├── account_service.dart
+│   ├── category_service.dart
+│   ├── investment_service.dart
+│   ├── reminder_service.dart
+│   └── split_bill_service.dart
+
+├── utils/
+│   ├── constants.dart              // Default categories, colors, types
+│   ├── formatters.dart             // Currency, date, etc.
+│   └── date_utils.dart             // Month/year calculations, filters
+
+├── config/
+│   ├── app_routes.dart             // All named routes
+│   ├── theme.dart                  // Only light theme for now
+│   └── app_config.dart             // App name, environment, constants
